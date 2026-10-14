@@ -23,6 +23,9 @@ craft-<name> = { git = "https://github.com/storytold/craft-libs", rev = "<commit
 
 ## Libraries
 
+- [`craft-archive`](crates/archive/README.md): dependency-free parsing budgets — a ZIP end-record
+  and central-directory preflight, bounded entry reads, and XML nesting and DTD checks that run
+  before a parser sees untrusted bytes. Every limit is the application's own.
 - [`craft-ui`](crates/ui/README.md): SVG catalogs, icon buttons, tabs, pane controls, transactional docking and theme helpers for egui frontends;
   assets, themes, localization and command handling stay in each app. Requires Rust 1.95 or later.
 - [Shared UI component audit](docs/ui-components-audit.md): source inventory, extraction priorities
